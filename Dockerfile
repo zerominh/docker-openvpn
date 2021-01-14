@@ -1,7 +1,9 @@
 # Original credit: https://github.com/jpetazzo/dockvpn
 
 # Smallest base image
-FROM alpine:latest
+# FROM alpine:latest
+# ubuntu 16.04
+FROM alpine:3.6
 
 LABEL maintainer="Kyle Manna <kyle@kylemanna.com>"
 
